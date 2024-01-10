@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "estilo.css">
+    <title>Serverphp.com</title>
+</head>
+<body>
+    
+        <style>
+
+            @keyframes giro{
+
+                to{
+
+                    transform: rotate(0deg);
+
+                }
+                
+                from{
+
+                    transform: rotate(360deg);
+
+                }
+            }
+
+            @keyframes mudanca{
+
+                0%{
+        
+                display: none;
+        
+                }
+
+                100%{
+        
+                    display:flex;
+        
+                }
+                
+            }
+
+            @keyframes legenda {
+                to{
+                    display: none;
+                }
+
+                from{
+
+                    display: none;
+                    
+                }
+            }
+
+            body{
+            font-size: 30px;
+            height: 100vh;
+            
+            
+
+            }
+            h4{
+                color: rgb(50, 205, 58);
+                text-align: center;
+                border-bottom: 20px solid white;
+                background-color: whitesmoke;
+                margin-top: -17%;
+                left: 0;
+                font-size: 28px;
+
+                
+
+            animation-name: legenda;
+                animation-duration: 1s;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+                animation-delay: 4s;
+                animation-fill-mode: backwards;
+            
+
+            }
+
+            p{
+                margin-top: 19%;
+                top: 20px;
+                animation-name: legenda;
+                animation-duration: 1s;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+                animation-delay: 4s;
+                animation-fill-mode: backwards;
+                font-size: 22px;
+            
+            }
+
+            /*.legendas{
+
+                animation-name: legenda;
+                animation-duration: 1s;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+
+            }*/
+
+            .wrapper{
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+
+                margin-top: -8%;
+
+            }
+
+            .server{
+
+            height: 66px;
+            width: 312px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                
+
+
+            }
+
+            .processar{
+
+                width: 160px;
+                height: 160px;
+                border: 3px solid  darkcyan;
+                border-radius: 50%;
+                border-bottom-color: transparent ;
+
+                animation-name: giro;
+                animation-duration: 1s;
+                animation-timing-function: linear;
+                /*Determina o tempo da animação*/
+                animation-iteration-count: infinite ;
+                animation-delay: 0.3ss;
+            
+
+                
+                
+            }
+
+            .wrapper .icone{
+
+                position: absolute;
+                width: 168px;
+                height: 168px;
+            background-color: white;
+                animation-name: mudanca;
+                animation-duration: 1s ;
+                animation-timing-function: linear;
+                /*Colocando uma pausinha antes de iniciar a pagina*/
+                animation-delay: 5s;
+                animation-fill-mode: backwards;
+
+
+
+            }
+
+            
+            
+        </style>
+
+        <header>
+            <div class="wrapper">
+                <section class = "server">
+                        <div class="processar"></div>
+                        <img class = "icone"src = "Nova pasta/IMG_1513.PNG" width="">
+                    
+                </section>
+            </div>
+
+        </header>
+
+        <article class="legendas">
+        
+            <h4>Formulário enviado com sucesso</h4>
+            <p>Voltar para página inicial. Clica aqui: <a href = "./doggo.html">Pagina inicial</a></p>
+            
+        </article>
+
+</body>
+</html>

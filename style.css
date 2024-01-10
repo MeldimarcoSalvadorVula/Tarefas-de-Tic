@@ -1,0 +1,95 @@
+
+body{
+    background-color: #5f7cba;
+    font-size: 21px;
+
+}
+
+
+
+form{
+
+    background-color: white;
+    max-width: 900px;
+    width: 60%;
+    padding: 20px;
+   
+    margin-left: 20%;
+    /*top: 70%;*/
+   
+}
+
+form{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+legend, label{
+   color: rgba(0, 0, 0, 0.877);
+   font-size: 23px;
+   font-weight: 550;
+}
+
+h3{
+    
+    text-align: center;
+}
+
+form input[type = "text"],
+form input[type = "email"],
+form input[type = "password"],
+form input[type = "number"]{
+
+    width: 88%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+
+form input[type = "submit"],
+form input[type  = "reset"]{
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background-color:cadetblue;
+    color: white;
+    border: 0;
+    border-radius: 20px;;
+
+    transition: background-color, border 2s;
+    
+    
+}
+
+h4{
+    text-align: center;
+    color:rgb(0, 47, 255)
+
+}
+
+form input[type = "submit"]:hover,
+form input[type  = "reset"]:hover{
+
+    background-color: rgba(0, 139, 127, 0.39);
+    border: 1px solid rgba(255, 255, 255, 0.842);
+
+}
+
+textarea{
+
+    width: 800px;;
+    height: 100px;
+}
+
+
+
+
+/*form input[type = "reset"]{
+
+    margin-left:  290px;
+
+}

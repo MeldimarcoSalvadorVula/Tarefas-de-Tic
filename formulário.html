@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href = "style.css">
+    <title>Formulário | SpaceDoggo</title>
+</head>
+<body>
+
+   
+    <!--Formulário sobre duvidas e curiosidades do Doggo-->
+    <header>
+        <h3>Se tiveres interessado em saber mais sobre nós ou a história do Doggo, podes participar do nosso formulário</h3><br>
+    
+            <form action = "server.html">
+                <fieldset>
+                        
+                    <h4>Questionário da Doggo SpaceDoggo</h4>
+                    <legend id = "dados"><strong>Seus Dados</strong></legend><br>
+                    <label for = "nome">Nome<br>
+                    <input type = "text" name = "nome" id ="nome"  placeholder = "Digite o seu nome" required ></label><br>
+                    
+                    <label for = "Sobrenome">Sobrenome</label><br>
+                    <input type = "text" name = "Sobrenome" id = "Sobrenome" placeholder = "Digite o seu sobrenome" required><br>
+            
+            
+            
+                    <label for = "Email">E-mail</label><br>
+                    <input type = "email" name = "email" id = "Email" placeholder = "Digite o seu email" required ><br>
+            
+                    <label for = "password">Password</label><br>
+                    <input type = "password" name = "password" id = "password" placeholder = "Digite o sua senha" ><br>
+            
+                    <label for = "number">Contacto</label><br>
+                    <input type = "number" name = "number" id = "number"  placeholder = "Digite o seu numero" required  ><br>
+            
+            
+                
+                    <legend>Que curiosidades tens sobre o Doggo ou a SpaceDoggo. Separe por tópicos</legend>
+                    <textarea placeholder="Digite aqui" required></textarea>
+                    
+                    <legend>O que achaste da tua experiência SpaceDoggo?</legend>
+                    <textarea placeholder="Dê sua opinião" required></textarea>
+            
+                    <legend>O que achaste que poderiamos melhorar?</legend>
+                    <textarea placeholder="Dê sua opinião" required></textarea>
+            
+                    <legend>O que não gostaste em nós?</legend>
+                    <textarea placeholder="Dê sua opinião" required></textarea>
+                    <br>
+            
+                    <input type = "submit" name = "enviar" value = "Enviar">
+                    <input type = "reset" name = "limpar" value = "Limpar" >
+    
+            </fieldset>
+            
+        </form>
+    
+    </header>
+</body>
+</html>
